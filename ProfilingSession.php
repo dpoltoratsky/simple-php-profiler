@@ -70,13 +70,13 @@ class ProfilingSession {
     
     /**
      * 
-     * @param Spp $profiler Instance of profiler that has this session started.
+     * @param Profiler $profiler Instance of profiler that has this session started.
      * @param string $key Unique key for profiling session.
      * @param string $message Custom start message. If not specified will be used default one. 
      * @see Measurer::DEFAULT_START_MESSAGE
      */
     public function __construct( 
-        Spp $profiler, 
+        Profiler $profiler, 
         $key, 
         $message = '' 
     ) {
